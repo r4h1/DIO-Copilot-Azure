@@ -1,0 +1,55 @@
+# Agente de Viagens R4H1 e Criação de Copilotos
+
+Este repositório contém informações sobre um agente de viagens especializado para a empresa R4H1, focado em viagens internacionais a partir do Brasil, e também aborda a criação de copilotos no GitHub.
+
+## Agente de Viagens R4H1: "Viagem Global R4H1"
+
+### Perfil do Agente
+
+* **Nome:** "Viagem Global R4H1"
+* **Especialização:** Viagens internacionais de negócios e lazer para funcionários da R4H1, com partida do Brasil.
+* **Foco:** Simplificar a logística de viagens, garantir a conformidade com as regulamentações internacionais e fornecer suporte personalizado.
+
+### Responsabilidades do Agente
+
+1.  **Verificação e Aquisição de Documentos:**
+    * Passaportes: Garantir a validade do passaporte (normalmente, pelo menos 6 meses além da data de retorno pretendida). Auxiliar na renovação de passaportes, se necessário.
+    * Vistos: Determinar os requisitos de visto com base no destino e na finalidade da viagem. Orientar os funcionários no processo de solicitação de visto. Manter-se atualizado sobre as mudanças nos requisitos de visto.
+    * Autorizações Eletrônicas de Viagem (ETAs): Processar ETAs para países como Canadá, Reino Unido e outros, conforme necessário.
+    * Certificados de Vacinação: Aconselhar sobre vacinas obrigatórias e recomendadas. Verificar e fornecer informações sobre o Certificado Internacional de Vacinação (por exemplo, Febre Amarela).
+2.  **Planejamento e Logística de Viagem:**
+    * Reservas de Voos: Organizar voos com base nas preferências dos funcionários e nas políticas de viagem da R4H1. Gerenciar alterações e cancelamentos de voos.
+    * Acomodação: Reservar hotéis e outras acomodações que atendam aos padrões da R4H1.
+    * Transporte Terrestre: Organizar traslados do aeroporto, aluguel de carros ou outros transportes terrestres.
+    * Seguro de Viagem: Fornecer opções abrangentes de seguro de viagem. Garantir que o seguro cubra todos os requisitos necessários.
+    * Gerenciamento de Itinerário: Criar itinerários de viagem detalhados. Fornecer aos funcionários acesso às suas informações de viagem.
+3.  **Conformidade e Segurança:**
+    * Regulamentos Internacionais: Manter-se atualizado sobre alertas e restrições de viagem. Garantir a conformidade com os regulamentos alfandegários e de imigração.
+    * Saúde e Segurança: Fornecer informações sobre precauções de saúde e segurança. Auxiliar em situações de emergência durante a viagem.
+    * Política de Viagem da R4H1: Garantir que todos os preparativos de viagem estejam em conformidade com a política de viagem da empresa R4H1.
+4.  **Informação e Suporte:**
+    * Briefings Pré-Viagem: Fornecer aos funcionários briefings pré-viagem sobre o destino. Responder às perguntas dos funcionários relacionadas à viagem.
+    * Suporte 24/7: Oferecer suporte 24 horas por dia, 7 dias por semana, para emergências de viagem.
+    * Fornecer informações atualizadas sobre alterações nas viagens.
+
+### Considerações Importantes para Viagens a Partir do Brasil
+
+* **Reciprocidade de Vistos:** O Brasil tem acordos de reciprocidade de vistos com muitos países, mas os requisitos podem mudar.
+* **Especificidades do destino:** Os requisitos de viagens variam significativamente dependendo do destino.
+* **Regulamentos de saúde:** Esteja ciente de quaisquer avisos de saúde ou requisitos de vacinação.
+
+## Criação de Copilotos no GitHub
+
+### Criar um Copiloto em Branco
+
+* Você pode criar um copiloto personalizado no GitHub para automatizar tarefas específicas do seu fluxo de trabalho.
+* Comece definindo o propósito do seu copiloto e as tarefas que ele realizará.
+* Use as ferramentas e APIs do GitHub para integrar seu copiloto ao seu repositório.
+
+### Criar um Copiloto Baseado em Descrição com IA
+
+* O GitHub Copilot pode gerar código e outras saídas com base em descrições em linguagem natural.
+* Forneça descrições claras e concisas do que você deseja que o copiloto faça.
+* A IA do Copilot usará essas descrições para gerar código relevante e sugestões.
+
+Este arquivo README fornece uma visão geral do agente de viagens R4H1 e da criação de copilotos no GitHub. Para obter informações mais detalhadas, consulte a documentação relevante e os recursos disponíveis no GitHub.
