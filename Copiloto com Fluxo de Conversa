@@ -1,0 +1,94 @@
+# Criando e Personalizando um Agente Copilot
+
+Este documento descreve os passos para criar um novo agente Copilot vazio, personalizar tópicos, personalizar mensagens de erro e influenciar a qualidade das respostas com IA Generativa.
+
+## 1. Criando um Novo Agente Copilot Vazio
+
+1.  **Acesse seu ambiente do Power Virtual Agents (PVA):**
+    * Navegue até o centro de administração do Power Platform ou diretamente para o Power Virtual Agents.
+    * Certifique-se de estar no ambiente correto onde deseja criar seu agente.
+2.  **Crie um novo bot:**
+    * Clique em "Novo bot" ou "Criar um bot".
+    * Forneça um nome para seu bot.
+    * Selecione o idioma desejado para seu bot.
+    * Clique em "Criar".
+3.  **Comece com uma tela em branco:**
+    * Após a criação do bot, você estará na tela de criação.
+    * Para garantir que você esteja trabalhando com um agente verdadeiramente vazio, exclua todos os tópicos padrão que foram criados.
+    * Agora você está pronto para começar a construir seu agente Copilot personalizado.
+
+## 2. Personalizando um Tópico
+
+Os tópicos são os blocos de construção principais do seu agente Copilot, definindo as conversas que ele pode lidar.
+
+1.  **Crie um novo tópico:**
+    * Na tela de criação, clique em "Novo tópico".
+    * Dê ao seu tópico um nome descritivo (por exemplo, "Status do Pedido", "Suporte Técnico").
+    * Adicione frases de gatilho. Estas são as frases que os usuários digitarão para ativar este tópico (por exemplo, "Onde está meu pedido?", "Preciso de ajuda com meu software").
+2.  **Projete o fluxo de conversa:**
+    * Use a tela de criação para construir o fluxo de conversa.
+    * Adicione nós para:
+        * **Perguntas:** Para coletar informações do usuário.
+        * **Condições:** Para criar lógica de ramificação com base nas respostas do usuário.
+        * **Ações:** Para executar tarefas, como recuperar dados de sistemas externos ou chamar fluxos do Power Automate.
+        * **Mensagens:** Para exibir informações ao usuário.
+3.  **Use variáveis:**
+    * Armazene a entrada do usuário e os dados em variáveis para personalizar a conversa.
+    * Use variáveis em mensagens e condições.
+4.  **Teste seu tópico:**
+    * Use o painel de teste para testar seu tópico e garantir que ele se comporte como esperado.
+
+## 3. Personalizando a Mensagem de Erro de um Tópico
+
+Fornecer mensagens de erro claras e úteis melhora a experiência do usuário.
+
+1.  **Identifique possíveis pontos de erro:**
+    * Determine onde os erros podem ocorrer em seu tópico (por exemplo, entrada de usuário inválida, falhas de chamadas de API).
+2.  **Adicione nós de tratamento de erros:**
+    * Use nós de condição para verificar condições de erro.
+    * Se ocorrer um erro, adicione um nó de mensagem para exibir uma mensagem de erro personalizada.
+3.  **Use mensagens de erro dinâmicas:**
+    * Incorpore variáveis em suas mensagens de erro para fornecer informações específicas do contexto.
+    * Exemplo: "Desculpe, não encontramos um pedido com o número do pedido: {NúmeroDoPedido}. Verifique o número e tente novamente."
+4.  **Forneça orientação útil:**
+    * Ofereça sugestões sobre como o usuário pode resolver o erro.
+    * Exemplo: "Se você ainda estiver com problemas, entre em contato com nossa equipe de suporte em suporte@exemplo.com."
+
+## 4. Melhorando e Diminuindo a Qualidade da Resposta com IA Generativa
+
+O Power Virtual Agents aproveita a IA Generativa para aprimorar suas capacidades.
+
+### Melhorando a Qualidade da Resposta
+
+1.  **Descrição do Tópico:**
+    * Ao criar um tópico, forneça uma descrição detalhada e clara. Isso ajuda a IA a entender o propósito do tópico e gerar respostas mais relevantes.
+2.  **Respostas Generativas:**
+    * Habilite "Respostas Generativas" nas configurações do seu bot.
+    * Conecte seu bot a fontes de dados relevantes (por exemplo, sites, sites do SharePoint) para fornecer à IA informações para gerar respostas.
+    * Revise as respostas geradas e forneça feedback para melhorar as respostas futuras.
+3.  **Engenharia de Prompt:**
+    * Ao usar nós de IA Generativa em tópicos, elabore cuidadosamente seus prompts.
+    * Forneça instruções e contexto claros para orientar a resposta da IA.
+    * Use exemplos para demonstrar a saída desejada.
+4.  **Ciclos de Feedback:**
+    * Revise regularmente as conversas do bot e o feedback do usuário.
+    * Use esse feedback para refinar seus tópicos, frases de gatilho e prompts de IA Generativa.
+5.  **Base de Conhecimento:**
+    * Mantenha uma base de conhecimento bem organizada e atualizada que a IA Generativa possa referenciar.
+
+### Diminuindo a Qualidade da Resposta
+
+1.  **Descrições de Tópico Vagas:**
+    * Se as descrições dos tópicos forem muito vagas, a IA poderá gerar respostas irrelevantes ou incorretas.
+2.  **Fontes de Dados Insuficientes:**
+    * Se o bot tiver acesso limitado a fontes de dados relevantes, ele poderá ter dificuldades para gerar respostas precisas.
+3.  **Engenharia de Prompt Ruim:**
+    * Prompts ambíguos ou mal escritos podem levar a respostas imprevisíveis e de baixa qualidade da IA.
+4.  **Confiança Excessiva na IA Generativa:**
+    * Não confie apenas na IA Generativa para tarefas complexas ou críticas. Use fluxos de tópicos estruturados para processos determinísticos.
+5.  **Ignorar o Feedback do Usuário:**
+    * Não abordar o feedback do usuário e refinar as respostas do bot resultará em uma experiência do usuário em declínio.
+6.  **Dados Conflitantes:**
+    * Se a IA Generativa tiver acesso a informações conflitantes de diferentes fontes de dados, ela terá dificuldades para fornecer respostas corretas.
+
+Seguindo estas diretrizes, você pode criar um agente Copilot poderoso e eficaz que oferece uma experiência positiva ao usuário.
